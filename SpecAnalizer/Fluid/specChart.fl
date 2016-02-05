@@ -1,0 +1,34 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0303 
+header_name {.h} 
+code_name {.cxx}
+decl {\#include <FL/Fl_Chart.H>} {public global
+} 
+
+decl {int process(void* gui);} {public global
+} 
+
+class Analyzer {open
+} {
+  Function {Analyzer()} {open selected
+  } {
+    Fl_Window specWindow {open
+      xywh {415 259 869 443} type Double visible
+    } {
+      Fl_Box chart {
+        label Spectra
+        xywh {15 70 830 360} box UP_BOX color 55 align 1
+        class Fl_Chart
+      }
+      Fl_Button {} {
+        label Start
+        callback {process(this);}
+        xywh {15 25 245 40} color 61 labelfont 1 labelsize 18
+      }
+    }
+  }
+  Function {show()} {open
+  } {
+    code {specWindow->show();} {}
+  }
+} 

@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1454538237 source:d:\workspace\specanalizer\fluid\specchart.cxx
+	"specChart.h"
+
+1454538237 d:\workspace\specanalizer\fluid\specchart.h
+	<FL/Fl.H>
+	<FL/Fl_Chart.H>
+	<FL/Fl_Double_Window.H>
+	<FL/Fl_Button.H>
+
+1450199672 d:\include\fl\fl.h
+	<FL/Fl_Cairo.H>
+	"fl_utf8.h"
+	"Enumerations.H"
+
+1450199672 d:\include\fl\fl_cairo.h
+	<FL/Fl_Export.H>
+	<cairo-xlib.h>
+	<cairo-win32.h>
+	<cairo-quartz.h>
+
+1450199673 d:\include\fl\fl_export.h
+
+1450199678 d:\include\fl\fl_utf8.h
+	"Fl_Export.H"
+	"fl_types.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<locale.h>
+	<ctype.h>
+	<wchar.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<X11/Xlocale.h>
+	<X11/Xlib.h>
+	<locale.h>
+
+1450199678 d:\include\fl\fl_types.h
+
+1450199672 d:\include\fl\enumerations.h
+	"Fl_Export.H"
+	"fl_types.h"
+
+1450199672 d:\include\fl\fl_chart.h
+	"Fl_Widget.H"
+
+1450199678 d:\include\fl\fl_widget.h
+	"Enumerations.H"
+	<stdint.h>
+	<stddef.h>
+
+1450199673 d:\include\fl\fl_double_window.h
+	"Fl_Window.H"
+
+1450199678 d:\include\fl\fl_window.h
+	<windows.h>
+	"Fl_Group.H"
+	"Fl_Bitmap.H"
+	<stdlib.h>
+
+1450199674 d:\include\fl\fl_group.h
+	"Fl_Widget.H"
+
+1450199672 d:\include\fl\fl_bitmap.h
+	"Fl_Image.H"
+
+1450199674 d:\include\fl\fl_image.h
+	"Enumerations.H"
+	<stdlib.h>
+
+1450199672 d:\include\fl\fl_button.h
+	"Fl_Widget.H"
+
+1454661182 source:d:\workspace\specanalizer\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<sndfile.h>
+	<assert.h>
+	<math.h>
+	<fftw3.h>
+	"Fluid/specChart.h"
+	<unistd.h>
+	<FL/fl_ask.H>
+	<float.h>
+
+1450438705 d:\include\sndfile.h
+	<stdio.h>
+	<stdint.h>
+	<sys/types.h>
+
+1450199678 d:\include\fl\fl_ask.h
+	"Enumerations.H"
+

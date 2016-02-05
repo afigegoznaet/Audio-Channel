@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1454491824 source:d:\workspace\audio channel\main.c
+	"wavegen.h"
+	<assert.h>
+	<portaudio.h>
+
+1454408266 d:\workspace\audio channel\wavegen.h
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1454408266 source:d:\workspace\audio channel\wavegen.c
+	"wavegen.h"
+

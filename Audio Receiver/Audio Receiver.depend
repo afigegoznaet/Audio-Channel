@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1454494997 source:d:\workspace\audio receiver\main.c
+	<stdio.h>
+	<stdlib.h>
+	<sndfile.h>
+	<assert.h>
+	<math.h>
+	<fftw3.h>
+
